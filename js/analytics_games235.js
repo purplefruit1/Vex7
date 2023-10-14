@@ -14,13 +14,13 @@ function loadGoogleAnalytics(id) {
 
 window.addEventListener("load", (event) => {
   if (navigator.webdriver) {
-    loadGoogleAnalytics("G-LE1ZGTPC77");
+    loadGoogleAnalytics("REMOVED TRACKING :DD");
     console.log('Bot Browser', event);
   } else {
     if (window.location.href.indexOf(".games235.com")> -1) {
-        loadGoogleAnalytics("G-M1L2DV7E56");
+        loadGoogleAnalytics("REMOVED TRACKING :DD");
     } else {
-        loadGoogleAnalytics("G-GLTKYHC2VB");
+        loadGoogleAnalytics("REMOVED TRACKING :DD");
     }
     console.log('Human Browser', event);
   }
